@@ -47,7 +47,7 @@ public class report {
                 else                       // 위 조건과 일치하는게 없다면
                     grade[i][j] = 68;      // grade[i][j]에 68 넣기(아스키코드 : D)
             }
-        }
+        } 
         for(int i = 0; i < 20; i++){       // i, 0 ~ 19까지 for문
             System.out.println((i+1)+"번 학생 점수 : 자바 "+(char)grade[0][i]+", 이산 "+(char)grade[1][i]);
             // i번 학생의 자바 이산 평점 출력, grade를 char로 변경해 알파벳으로 출력
