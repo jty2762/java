@@ -20,7 +20,7 @@ public class LabelEx extends JFrame {
         c.add(imageLabel);
         c.add(label);
 
-        setSize(400,600);s
+        setSize(400,600);
         setVisible(true);
     }
     public static void main(String[] args){
